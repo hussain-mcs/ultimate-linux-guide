@@ -8,6 +8,26 @@
 | `/sbin -> /usr/sbin` | System binaries for administrative commands (linked to `/usr/sbin`). |
 | `/bin -> /usr/bin` | Essential user binaries (linked to `/usr/bin`). |
 | `/lib -> /usr/lib` | Shared libraries and kernel modules (linked to `/usr/lib`). |
+| /sbin	| Contains essential system binaries for root user (symlink to /usr/sbin).|
+| /lib	| Shared libraries required by system programs (symlink to /usr/lib).|
+| /boot	| Holds bootloader files like vmlinuz and initrd.|
+| /bin	| Essential user command binaries (symlink to /usr/bin).|
+| /usr	| Contains user-installed software and libraries.|
+| /srv	| Holds data for services like web and FTP servers.|
+| /mnt	| Mount point for temporarily mounted filesystems.|
+| /media	| Mount point for external media like USB drives and CDs.|
+| /var	| Variable files like logs, spools, and cache.|
+| /data	| Custom directory often used to store application data.|
+| /proc	| Virtual filesystem exposing kernel and process information.|
+| /dev	| Contains device files for accessing hardware.|
+| /sys	| Virtual filesystem for kernel, hardware, and system info.|
+| /tmp	| Temporary files, usually cleared on reboot.|
+| /root	| Home directory for the root user.|
+| /test	| Custom directory, possibly for testing purposes.|
+| /opt	| Optional software packages and third-party apps.|
+| /run	| Runtime variable data like PID files and sockets.|
+| /home	| Home directories for regular users.|
+| /etc	| System-wide configuration files.|
 
 ### **Important System Directories**
 | Directory | Description |
