@@ -29,6 +29,8 @@
 | /home	| Home directories for regular users.|
 | /etc	| System-wide configuration files.|
 
+PATH and which combination defines the usage and finding for command
+
 ### **Important System Directories**
 | Directory | Description |
 |-----------|-------------|
